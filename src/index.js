@@ -11,7 +11,7 @@ const ENV = process.env.NODE_ENV || 'development';
 
 // Routes
 app.get('/', (req, res) => {
-  res.status(200).send({ message: 'Hello World!' });
+  res.status(404).send({ message: 'Hello World!' });
 });
 
 // Start Server
