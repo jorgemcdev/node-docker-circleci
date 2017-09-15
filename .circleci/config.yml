@@ -14,3 +14,6 @@ jobs:
             - run:
                 name: tests
                 command: npm test
+            - run:
+                name: start
+                command: npm start             
