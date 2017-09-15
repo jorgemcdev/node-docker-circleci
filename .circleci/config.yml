@@ -10,7 +10,7 @@ jobs:
                 command: npm install
             - run:
                 name: eslint
-                command: npm eslint                
+                command: npm run eslint                
             - run:
                 name: tests
                 command: npm test
