@@ -15,5 +15,5 @@ jobs:
                 name: tests
                 command: npm test
             - run:
-                name: start
-                command: npm start             
+                name: build
+                command: npm build     
